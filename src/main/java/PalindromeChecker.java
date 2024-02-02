@@ -46,7 +46,7 @@ public String reverse(String str)
 {
     String sNew = new String();
     for(int i = str.length()-1; i>= 0; i--){
-      sNew = sNew + str.substring(i, i++)
+      sNew = sNew + str.substring(i, i++);
     }
     return sNew;
 }
